@@ -4,20 +4,34 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
+    <link rel="shortcut icon" href="images/luna.jpg">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
 	<title>¿Dormimos?</title>
 </head>
 <body>
-	<div class="container-fluid fondo">
-		<div class="row">
+<!--------------------------------------------------------------------------HEADER-------------->
+<header>
+       <div class="container">
+           <div class="row">
+               <div class="col-sm-offset-3 col-sm-6 col-xs-12 logo">
+                   <img class="animated wobble texto" src="images/logo.png">
+               </div>
+           </div>
+       </div>
+	   <div class="container">
+		  <div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<h1>¿Dormimos?</h1>
-				<p>Completa el formulario y te diré si puedes hacerlo</p>
+				<h1 class="text-center">¿Dormimos?</h1>
+				<p class="text-center">Completa el formulario y te diré si puedes hacerlo</p>
 				<hr>
 			</div>
-		</div>
+		  </div>
+       </div>
+</header>
+<!-------------------------------------------------------------------------EJERCICIO-------------->
 		<div class="row">
 			<div class="col-md-5 col-md-offset-2">
 				<div class="form-group">
@@ -39,16 +53,15 @@
 						<option value="2">No</option>
 					</select>
 				</div>
-				<button onclick="calcular()" class="btn btn-primary">Evaluar</button>
+				<button onclick="calcular()" class="btn btn-danger">Evaluar</button>
 			</div>
 			<div class="col-md-3 text-center">
 				<h4 class="text-info">Hoy</h4>
 				<div id="salida" style="font-size:50px;" class="text-center">-</div>
 				<h4 class="text-info">podrás dormir</h4>
 	        </div>
-	    </div>
 	</div>
 </body>
 
-<script src="main.js"></script>
+<script src="js/main.js"></script>
 </html>
