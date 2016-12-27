@@ -6,6 +6,7 @@ body{
     background-size: cover;
     background-position: center;
     height: 700px;
+    margin: 15px;
 }
 .logo img {
     padding-top: 50px;
