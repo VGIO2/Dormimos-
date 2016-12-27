@@ -1,25 +1,19 @@
-#Ejercicio - 6
+#Ejercicio - 4
 
-Inicio: Evaluar si el usuario puede dormir
+Inicio: Diff 21
 
 ## Ingreso datos
-- weekday
-- vacation
-- puede_dormir
+- n
+-diferencia
 
 ## Proceso
 
-Obtener valor weekday
-Obtener valor vacation
-
-Si vacation es verdadero
-	Mostrar 1 //Dormimos
-Si no
-	Si weekday es verdadero
-		Mostrar 0 //No Dormimos
-	Si no
-		Mostrar 1 //Dormimos
-	Fin si
-Fin si
+-Leer n 
+- Si n > 21 entonces
+       diferencia=n-21
+       mostrar la diferencia por dos.
+- Si no 
+       diferencia=21-n
+       mostrar diferencia
 
 *Fin*
